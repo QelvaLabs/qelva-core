@@ -1,7 +1,4 @@
-// Minimal Qelva SDK skeleton (beta)
-// Talks to a Qelva-core backend over HTTP.
-
-import type { TransferIntent } from '../proto/src';
+import type { TransferIntent } from '../../proto/src';
 
 export interface QelvaClientOptions {
   /**
