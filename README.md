@@ -13,8 +13,10 @@ async function demo() {
   console.log('Health:', health);
 }
 
-
-
+demo().catch((err) => {
+  console.error('SDK demo error:', err);
+});
+```
 Qelva Core is the main monorepo powering the **Qelva privacy stack** — a minimal, practical, and developer-first identity & transaction system built for Solana.
 
 This repository contains all modules required to run the Qelva architecture:
