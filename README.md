@@ -1,6 +1,19 @@
 # Qelva Core  
 ### Privacy-Native Identity & Transaction Layer for Solana  
 **Status:** Beta • Under Active Development  
+### Using the SDK (beta skeleton)
+
+```ts
+import { QelvaClient } from './packages/sdk/src';
+
+const client = new QelvaClient({ baseUrl: 'http://localhost:4000' });
+
+async function demo() {
+  const health = await client.health();
+  console.log('Health:', health);
+}
+
+
 
 Qelva Core is the main monorepo powering the **Qelva privacy stack** — a minimal, practical, and developer-first identity & transaction system built for Solana.
 
