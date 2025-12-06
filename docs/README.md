@@ -9,3 +9,10 @@ Planned structure:
 - `flows/` — identity, intents, relayer, automation flows
 
 For now, the focus is on **privacy** and **threat modelling**.
+---
+**Docs:**
+- [Technical & Privacy Docs](./docs/README.md)
+- [Threat Model](./docs/privacy/0-threat-model.md)
+- [Metadata & Leakage](./docs/privacy/1-metadata-leakage.md)
+---
+
